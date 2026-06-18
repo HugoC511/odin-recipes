@@ -1,0 +1,21 @@
+.card {
+    box-sizing: border-box;
+    background-color: rgb(168, 222, 254);
+    width: 700px;
+    margin: 0px auto;
+    padding: 5px 15px;
+    border: 3px solid rgb(136, 75, 136);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    width: 600px;
+    height: auto;
+    border: 1px solid black;
+    margin: 0 auto;
+}
