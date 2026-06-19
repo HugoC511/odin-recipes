@@ -1,10 +1,15 @@
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+}
 .card {
     box-sizing: border-box;
-    background-color: rgb(168, 222, 254);
+    background-color: white;
     width: 700px;
     margin: 0px auto;
     padding: 5px 15px;
-    border: 3px solid rgb(136, 75, 136);
+    border: 3px solid rgb(254, 203, 157);
+    border-radius: 10px;
 }
 
 h1 {
@@ -18,4 +23,43 @@ img {
     height: auto;
     border: 1px solid black;
     margin: 0 auto;
+}
+
+.home {
+    box-sizing: border-box;
+    display:block;
+    width: max-content;
+    margin: -30px 15px 5px 15px;
+    padding: 5px 15px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.link:hover{
+    background-color: rgb(254, 203, 157);
+    color: white;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.recipe {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.recipe:last-child {
+    margin-right: 0;
+}
+
+.recipes {
+    width: fit-content;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
